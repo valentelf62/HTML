@@ -28,12 +28,12 @@ Capitulo1/
 								git add .
 								git commit -m "(oque commit)"
 								git push -u origin master
-				1.3.4.4)primeiro.lhtml
+				1.3.4.4)file:///users/macbookpro/Desktop/HTML/Primeiro.html
 						<!DOCTYPE html>
 						<html>
 							<head>
 								<title>Primeiro (ver 5.6.1.1)</title>
-								<meta charset="utf-8">
+								<meta charset="utf-8" />
 							</head>
 							<body>
 								Minha primeria pagina html
@@ -43,14 +43,70 @@ Capitulo1/
 				1.1..2)git init
 					1.1.1.2)^T
 						1.1.1.2.1)file:///users/macbookpro/Desktop/HTML/Primeiro.html
-	1)Estudo: destina-se especialmente a HTML e .CSS
+	2)Estudo: destina-se especialmente a HTML e .CSS
 	3)make git("estudo")
 		3.1)Altere ~/desktop/HTML/makefile
 		3.1.1)git commit -m "estudo"
-	5)Curso:RBTech
-		5.1)Video:Aula_1.mp4
-		5.3)
-		5.4)make git "primeiro.hatml"
-			5.4.1)Altere ~/desktop/HTML/makefile
-			5.4.1)git commit -m "Primeriro.html"
-		5.5)
+	4)Curso:RBTech
+		4.1)Quick Player
+			4.1.1)Aula_1.mp4
+				4.1.1.1)Observações
+					<tag atributo="valor" />
+					ou
+					<tag atributo="valor">
+						conteudo da tag
+					</tag>
+				4.1.1.1)makefile
+							git:
+								...
+								git commit -m "RBTech Aula_1"
+								...
+
+			4.1.2)Aula_2.mp4
+				4.1.1.1)Observações
+					4.1.1.1.1)Estrutura básica do html
+							<!DOCTYPE html>
+							<html>
+								<head>
+									<title>Primeiro (ver 5.6.1.1)</title>
+									<meta charset="utf-8" />
+								</head>
+								<body>
+									Minha primeira página HTML
+								</body>
+							</html>
+					4.1.1.1.1)Alterar ~/Desktop/HTML/Primeiro.html
+							<body>
+								...
+								<h1>Minha primeira página HTML</h1>
+							</body>
+
+					4.1.1.1.2)Alterar ~/Desktop/HTML/Primeiro.html
+							<body>
+								...
+								<p>Este é apenas um parágrafo da Minha <em>primeira</em> página HTML. <br />E esta é a segunda linha do parágrafo.</p>
+							</body>
+					4.1.1.1.3)Alterar ~/Desktop/HTML/Primeiro.html
+							<body>
+								...
+								primeira para <em>primeira</em> 
+								...
+							</body>
+					4.1.1.1.4)Alterar ~/Desktop/HTML/Primeiro.html
+							<body>
+								...
+								.Esta para <br />.Esta
+								...
+							</body>
+
+					4.1.1.1.5)Alterar ~/Desktop/HTML/Primeiro.html
+							<body>
+								...
+								segunda para <strong>segunda</strong>
+								...
+							</body>		
+
+
+
+
+
