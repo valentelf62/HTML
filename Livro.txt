@@ -207,60 +207,98 @@ Capitulo1/
 											...
 			4.1.5)Aula_5.mp4
 				4.1.5.1)Observações
-						4.1.5.1.1)Copiar Primeiro.haml para seo-titulos.html
-						4.1.5.1.2)Fechar Primeiro.haml
-						4.1.5.1.3)Abrir seo-titulos.html
-						4.1.5.1.4)Subistituir
-									<body>
-										...
-									</body>
-									por
-									<body>
-										<h1>
-											Título de nível 1
-										</h1>
-										<h2>
-											Título de nível 2
-										</h2>
-										<h3>
-											Título de nível 3
-										</h3>
-										<h4>
-											Título de nível 4
-										</h4>
-										<h5>
-											Título de nível 5
-										</h5>
-										<h6>
-											Título de nível 6
-										</h6>
-									</body>
-						4.1.5.1.4)Novo title
-									<title>Nome do site - Descricao do site(slogan)</title>
-						4.1.5.1.5)Novo title
-									<title>Título do artigo ou post - Nome do site</title>
-						4.1.5.1.6)Novo meta
-							<head>
-								...
-								<meta name="Description" content="Descricão completa do conteúdo limitada a 156 caracteres" />
-							</head>
-						4.1.5.1.7)Novo meta
-							<head>
-								...
-								<meta name="keywords" content="html, títulos, cabeçalhos, seo, meta tags, curso" />
-							</head>
-						4.1.5.1.8)Novo meta
-							<head>
-								...
-								<meta name="author" content="Luís Valente" />
-							</head>
-						4.1.5.1.9)makefile
-									git:
-										...
-										git commit -m "RBTech Aula_5"
-										...
+					4.1.5.1.1)Copiar Primeiro.haml para seo-titulos.html
+					4.1.5.1.2)Fechar Primeiro.haml
+					4.1.5.1.3)Abrir seo-titulos.html
+					4.1.5.1.4)Subistituir
+								<body>
+									...
+								</body>
+								por
+								<body>
+									<h1>
+										Título de nível 1
+									</h1>
+									<h2>
+										Título de nível 2
+									</h2>
+									<h3>
+										Título de nível 3
+									</h3>
+									<h4>
+										Título de nível 4
+									</h4>
+									<h5>
+										Título de nível 5
+									</h5>
+									<h6>
+										Título de nível 6
+									</h6>
+								</body>
+					4.1.5.1.4)Novo title
+						<title>Nome do site - Descricao do site(slogan)</title>
+					4.1.5.1.5)Novo title
+						<title>Título do artigo ou post - Nome do site</title>
+					4.1.5.1.6)Novo meta
+						<head>
+							...
+							<meta name="Description" content="Descricão completa do conteúdo limitada a 156 caracteres" />
+						</head>
+					4.1.5.1.7)Novo meta
+						<head>
+							...
+							<meta name="keywords" content="html, títulos, cabeçalhos, seo, meta tags, curso" />
+						</head>
+					4.1.5.1.8)Novo meta
+						<head>
+							...
+							<meta name="author" content="Luís Valente" />
+						</head>
+					4.1.5.1.9)makefile
+						git:
+							...
+							git commit -m "RBTech Aula_5"
+							...
+			4.1.6)Aula_6.mp4
+				4.1.6.1)Observações
+					4.1.6.1.1)Copiar Primeiro.html para Estrutura-html5.html
+					4.1.6.1.2)Abrir Estrutura-html5.html
+					4.1.6.1.3)Nova <body>
+						<body>
+							<header>
+								Top do site + menus de navegação
+							</header>
+							<nav>
+								Menu de navegação
+							</nav>
+							<section>
+								Seção com conteúdos
+							</section>
+							<article>
+								Post ou conteúdo da páagina
+							</article>
+							<aside>
+								Barra lateral (sidebar)
+							</aside>
+							<footer>
+								Rodapé do site
+							</footer>
+						</body>						
+				4.1.6.2)makefile
+					git:
+						...
+						git commit -m "RBTech Aula_6"
+						...
+			4.1.7)Aula_7.mp4
+				4.1.7.1)Observações
 
 
+				
+				4.1.7.2)makefile
+					git:
+						...
+						git commit -m "RBTech Aula_7"
+						...
 
 
 
