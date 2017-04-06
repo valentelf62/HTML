@@ -109,6 +109,93 @@ Capitulo1/
 									...
 									git commit -m "RBTech Aula_2"
 									...
+			4.1.3)Aula_3.mp4
+				4.1.3.1)Observações
+					4.1.3.1.1)Copiar Primeiro.haml para listas.html
+					4.1.3.1.2)Fechar Primeiro.haml
+					4.1.3.1.3)Abrir listas.html
+					4.1.3.1.4)Criar nova tag <body>
+									<body>	
+										<h1>
+											Lista não ordenada
+										</h1>
+										<ul>
+											<li>
+												Primeiro item da lista
+											</li>
+											<li>
+												Segundo item da lista
+											</li>
+											<li>
+												Terceiro item da lista
+											</li>
+											<li>
+												Quarto item da lista
+											</li>
+										</ul>
+									</body>
+					4.1.3.1.5)Inserir
+								<body>
+									...
+										</li>
+									</ul>
+									<h1>
+										Lista ordenada
+									</h1>
+									<ol>
+										<li>
+											Primeiro item da lista
+										</li>
+										<li>
+											Segundo item da lista
+										</li>
+										<li>
+											Terceiro item da lista
+										</li>
+										<li>
+											Quarto item da lista
+										</li>
+										
+									</ol>
+								</body>
+					4.1.3.1.6)Inserir
+								<body>
+									...
+										</li>			
+									</ol>
+									<h1>
+										Lista de definição
+									</h1>
+									<dl>
+										HTML
+									</dl>
+									<dd>
+										Lingugem de marcação para página web
+									</dd>
+									<dl>
+										HTML
+									</dl>
+									<dd>
+										Lingugem de marcação para página web
+									</dd>
+									<dl>
+										HTML
+									</dl>
+									<dd>
+										Lingugem de marcação para página web
+									</dd>
+									<dl>
+										HTML
+									</dl>
+									<dd>
+										Lingugem de marcação para página web
+									</dd>
+								</body>
+					4.1.3.1.7)makefile
+								git:
+									...
+									git commit -m "RBTech Aula_3"
+									...
 
 
 
