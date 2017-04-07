@@ -291,7 +291,142 @@ Capitulo1/
 						...
 			4.1.7)Aula_7.mp4
 				4.1.7.1)Observações
+					4.1.7.1.1)Alterar <body>
+						<body>
+							<blockquote>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel neque gravida.	
+							</blockquote>
+						</body>
+					4.1.7.1.2)Testar
+					4.1.7.1.3)Alterar <body>
+						<body>
+							<a href="">
+								Texto do link
+							</a>
+						</body>
+					4.1.7.1.4)Testar
+					4.1.7.1.5)Alterar <body>
+						<body>
+							<a href="Listas.html">
+								Texto do link
+							</a>
+						</body>
+					4.1.7.1.6)Testar
+					4.1.7.1.7)Alterar <body>
+						<body>
+							<a href="Listas.html" target="_blank">
+								Texto do link
+							</a>
+						</body>
+					4.1.7.1.8)Copiar link-img.html para pagina1.html
+					4.1.7.1.9)Abrir Pagina1.html
+					4.1.7.1.10)Aterar <title>
+						<title>Pagina1.html</title>
+					4.1.7.1.11)Aterar <body>
+						<body>
+							<p>
+								Conteúdo da página 1
+							</p>
+						</body>
+					4.1.7.1.12)Fechar pagina1.html
+					4.1.7.1.13)Copiar pagina1.html para pagina2.html
+					4.1.7.1.14)Abrir pagina2.html
+						...
+						<title>Pagina2.html</title>
+						...
+						<body>
+							<p>
+								Conteúdo da página 2
+							</p>
+						</body>
+						...
+					4.1.7.1.15)Fechar pagina2.html
+					4.1.7.1.16)Abrir link-img.html
+						<body>
+							<a href="pagina1.html">
+								[Página 1]
+							</a>
+							<a href="pagina2.html">
+								[Página 2]
+							</a>
+						</body>
+					4.1.7.1.17)Criar ~/desktop/Pages
+					4.1.7.1.18)Transferir para Pages
+						Pagina1
+						Pagina2
+					4.1.7.1.19)Modificar link-img.html
+						<body>
+							<a href="pages/pagina1.html">
+								[Página 1]
+							</a>
+							<a href="pages/pagina2.html">
+								[Página 2]
+							</a>
+						</body>
+					4.1.7.1.20)Alterar pages/pagina1.html
+						<p>
+							Conteúdo da página 1
+							<a href="../link-img.html">
+								[voltar]
+							</a>
+						</p>
+					4.1.7.1.21)Alterar pages/pagina2.html
+						<p>
+							Conteúdo da página 2
+							<a href="../link-img.html">
+								[voltar]
+							</a>
+						</p>
+					4.1.7.1.22)Criar ~/desktop/img
+					4.1.7.1.23)Salvar parte da tela usando [shift]+[command]+[4] em ~/desktop/img 
+						com nome icone.png
+					4.1.7.1.24)Altetar link-img.html
+						<body>
+							<p>
+								<a href="pages/pagina1.html">
+									[Página 1]
+								</a>
+								<a href="pages/pagina2.html">
+									[Página 2]
+								</a>
+							</p>
+							<p>
+								<img src="img/icone.png" alt="icone html" />
 
+							</p>
+						</body>
+					4.1.7.1.25)Alterar pagina1.html
+						<body>
+							<p>
+								Conteúdo da página 1
+								<a href="../link-img.html">
+									[voltar]
+								</a>
+							</p>
+							<p>
+								<img src="../img/icone.png" alt="icone html" />
+							</p>
+						</body>
+					4.1.7.1.26)Inserir nova <a>	em pages/pagina1.html
+						<body>
+							...
+							<a href="http://www5.usp.br">
+								Site da USP
+							</a>
+					4.1.7.1.27)Altetar link-img.html
+						<body>
+							...
+							<a href="http://www5.usp.br" target="_blank">
+								[Site da USP]
+							</a>
+						</body> 
+ 					4.1.7.1.28)Altetar link-img.html
+						<body>
+							...
+							<a href="http://www5.usp.br" target="_blank" title="Acesso ao Site da USP">
+								[Site da USP]
+							</a>
+						</body> 
 
 				
 				4.1.7.2)makefile
