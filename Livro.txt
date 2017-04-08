@@ -923,13 +923,147 @@ Capitulo1/
 						footer{
 							clear: both;
 						}
-
-
-
-
 				4.1.9.2)makefile
 					git:
 						...
 						git commit -m "RBTech Aula_9"
 						...
+			4.1.10)Aula_10.mp4
+				4.1.10.1)Observações
+					4.1.10.1.1)Abrir arquivo Primeiro-estilo.html
+					4.1.10.1.2)Alterar todo arquivo Primeiro-estilo.html
+						<!DOCTYPE html>
+							<html>
+								<head>
+									<title>Primeiro estilo CSS</title>
+									<meta charset="utf-8" />
+									<link rel="stylesheet" type="text/css" href="estilo.css">
+								</head>								
+								<body>
+									<h1 class="link">Meu primeiro estilo CSS</h1>
+									<p><a href="Listas.html" class="link">[Primeiro link]</a></p>
+									<p><a href="Listas.html" id="segundo">[Segundo Link]</a></p>
+									<p><a href="Listas.html" class="link">[Terceiro Link]</a></p>
+								</body>
+							</html>
+					4.1.10.1.3)Abrir arquivo .gitignore
+					4.1.10.1.4)Inserir no arquivo .gitignore
+						README.md
+						Primeiro.html
+						Listas.html
+						link-img.html
+						seo-titulos.html
+						Primeiro-estilo.html
+						Primeiro-latout.html
+						Primeiro-layout.html
+						.gitignore
+						./pages
+						./img
+					4.1.10.1.5)Copiar arquivo Primeiro-estilo.html para Formulario.html
+					4.1.10.1.6)Abrir Formulario.html e alterar <title>
+						<title>Tabalhando com formulários</title>
+					4.1.10.1.7)Alterar <body>
+						<body>
+							<form action="contato.php" method="get">
+								<label for="nome">Nome:</label>
+								<input id="nome" type="text" placeholder="Digite seu nome" />
+							</form>		
+						</body>
+					4.1.10.1.8)Alterar <form>
+						<form action="" method="get">
+							<label for="nome">Nome:</label>
+							<input id="nome" type="text" placeholder="Digite seu nome" name="name" />
+							<input type="submit" value="Enviar">
+						</form>
+					4.1.10.1.9)Altera <form>
+						<form action="" method="post">
+							...
+						</form>
+					4.1.10.1.10)Altera <form>
+						<form action="" method="get">
+							<label for="nome">Nome:</label>
+							<input id="nome" type="text" placeholder="Digite seu nome" name="name" />
+							<input type="radio" name="opcao" value="sim" />Sim
+							<input type="radio" name="opcao" value="nao" />Não
+							<input type="submit" value="Enviar">
+						</form>
+					4.1.10.1.11)Altera <form>
+						<form action="" method="get">
+							<label for="nome">Nome:</label>
+							<input id="nome" type="text" placeholder="Digite seu nome" name="name" />
+							<label for="opcao">Você gostou do site?</label>
+							<input type="radio" name="opcao" value="sim" />Sim
+							<input type="radio" name="opcao" value="nao" />Não
+							<input type="submit" value="Enviar">
+						</form>
+					4.1.10.1.12)Altere <form>
+						<input type="radio" name="opcao" value="sim" />Sim
+						para
+						<input type="radio" name="opcao" value="sim" checked="checked" />Sim
+					4.1.10.1.13)Alterar <form>
+						<form action="" method="get">
+							<label for="nome">Nome:</label>
+							<input id="nome" type="text" placeholder="Digite seu nome" name="name" />
+							<label for="opcao">Você gostou do site?</label>
+							<input type="radio" name="opcao" value="sim" checked="checked" />Sim
+							<input type="radio" name="opcao" value="nao" />Não
+							<label for="linguagem">Você quer aprender mais sobre:</label>
+							<input type="checkbox" name="html" />HTML
+							<input type="checkbox" name="css" />CSS
+							<input type="submit" value="Enviar">
+						</form>
+					4.1.10.1.14)Abrir e limpar arquivo estilo.css
+					4.1.10.1.15)Incluir no arquivo estilo.css
+						label{
+							display: block;
+						}
+					4.1.10.1.16)Alterar arquivo estilo.css
+						label, input[type=submit], input[type=text]{
+							display: block;
+						}
+					4.1.10.1.17)Alterar arquivo formulario.html
+						<form action="" method="get">
+							...
+							<input type="checkbox" name="css" />CSS
+							<textarea></textarea>
+							<input type="submit" value="Enviar">
+						</form>
+					4.1.10.1.18)Incluir arquivo estio.css
+						...
+						textarea{
+							width: 300px;
+							height: 80px;
+						}
+					4.1.10.1.19)Incluir no arquivo estilo.css
+						...
+						input[type=submit]{
+							background: #333333;
+							color: #ffffff;
+							cursor: pointer;
+							padding: 10px 20px;
+							border: 0;
+						}
+						input[type=submit]:hover{
+							background: #ff6600;
+						}
+				4.1.10.2)makefile
+					git:
+						...
+						git commit -m "RBTech Aula_10"
+						...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
