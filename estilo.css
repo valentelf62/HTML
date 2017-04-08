@@ -1,17 +1,13 @@
-label, input[type=submit], input[type=text], textarea{
-	display: block;
+h1{
+	color: #ff6600;
+	letter-spacing: -2px;
+	text-transform: capitalize;
+	width: 650px;
+	text-shadow: 1px 1px 1px black;
+	font-family: 'Nunito Sans', sans-serif;
 }
-textarea{
-	width: 300px;
-	height: 80px;
-}
-input[type=submit]{
-	background: #333333;
-	color: #ffffff;
-	cursor: pointer;
-	padding: 10px 20px;
-	border: 0;
-}
-input[type=submit]:hover{
-	background: #ff6600;
+p{
+	width: 650px;
+	font-size: 18px;
+	font-family: arial, sans-serif;
 }

@@ -1046,24 +1046,143 @@ Capitulo1/
 						input[type=submit]:hover{
 							background: #ff6600;
 						}
-				4.1.10.2)makefile
+
+			4.1.11)Aula_11.mp4	
+				4.1.11.1)Observações
+					4.1.11.1.1)Copiar Formularios.html para Tipografia.html
+					4.1.11.1.2)Abrir arquivo Tipografia.html
+					4.1.11.1.3)Alterar 
+						<title>Tipografia</title>
+							<body>
+								<h1>Primeiro título da minha página</h1>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas blandit dolor sit amet ipsum accumsan facilisis. Nulla a lectus venenatis, cursus orci eget, gravida urna. Donec posuere nunc quam, et rhoncus dolor posuere in. Cras interdum lacus et velit pulvinar, nec semper turpis aliquet. Maecenas venenatis blandit ex, sit amet.</p>
+							</body>
+					4.1.11.1.4)Abrir arquivo estilo.css 
+						4.1.11.1.4.1)apagar seu conteúdo 
+						4.1.11.1.4.2)Incluir h1{
+											 	color: orange;
+											 }
+						4.1.11.1.4.5)Alterar
+							4.1.11.1.4.5.1)h1{
+												color: #ff6600;
+											}
+							4.1.11.1.4.5.2)h1{
+												...
+												letter-spacing: 2px;
+											}
+							4.1.11.1.4.5.3)h1{
+												...
+												letter-spacing: -2px;
+											}
+							4.1.11.1.4.5.4)h1{
+												...
+												text-transform: uppercase;
+											}
+							4.1.11.1.4.5.5)h1{
+												...
+												text-transform: lowercase;
+											}
+							4.1.11.1.4.5.6)h1{
+												...
+												text-transform: capitalize;
+											}
+					4.1.11.1.5)Alterar tipografia.html
+						4.1.11.1.5.1)<head>
+										<title>Tipografia</title>
+										...
+									</head>
+						4.1.11.1.5.2)<body>
+										<h1>Primeiro título da minha página</h1>
+										<p class="p1">Lorem ipsum dolor sit amet, 
+										...
+									</body>
+					4.1.11.1.6)Alterar estilo.ccs
+						4.1.11.1.6.1)h1{...
+											width: 650px;
+										}	
+						4.1.11.1.6.2).p1{
+											width: 650px;
+										}
+
+						4.1.11.1.6.3).p1{
+											width: 650px;
+											text-align: right;
+										}
+
+						4.1.11.1.6.4).p1{
+											width: 650px;
+											text-align: center;
+										}
+
+						4.1.11.1.6.5).p1{
+											width: 650px;
+											text-align: justify;
+										}
+
+						4.1.11.1.6.6)h1{
+										...
+										text-shadow: 1px 1px black;
+										}
+						4.1.11.1.6.7)h1{
+										...
+										text-shadow: -1px -1px black;
+										}
+						4.1.11.1.6.8)h1{
+										...
+										text-shadow: 1px 1px 5px black;
+										}
+						4.1.11.1.6.9)h1{
+										...
+										text-shadow: 1px 1px 1px black;
+										}
+					4.1.11.1.7)Alterar tipografia.html
+						4.1.11.1.7)Aletrar <body>
+												<h1>Primeiro título da minha página</h1>
+												<p class="p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut pulvinar nulla. Donec ullamcorper lacinia suscipit. Curabitur eu rhoncus felis. Fusce ac ex lacinia, convallis ligula non, posuere nibh. Nulla sodales metus neque, id tincidunt nulla varius eu. Aenean ac facilisis ligula. Sed mollis iaculis auctor. Etiam eu nisi mattis, dictum enim vitae, placerat justo. Fusce tincidunt elit ut nulla ultrices placerat. Aliquam semper, dolor vel accumsan posuere, sem urna.</p>
+												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo urna vitae tortor vestibulum suscipit. Curabitur hendrerit volutpat consequat. Etiam iaculis eros eu tellus malesuada posuere. Aliquam convallis convallis purus.</p>
+												<p>Nulla tincidunt congue turpis, eu feugiat velit ultrices et. Quisque ultricies lacinia est, a faucibus nisl pulvinar non. Vestibulum feugiat hendrerit urna et tempus. Donec et facilisis leo. Maecenas vulputate.</p>
+												<p>Quisque leo sapien, facilisis ac urna vitae, sagittis pellentesque dolor. Proin arcu eros, mattis ac lobortis blandit, fermentum at neque. Ut vitae scelerisque quam. In iaculis tellus tellus, faucibus iaculis.</p>
+												<p>Donec cursus lacinia elementum. Nam elementum ut dui vel fringilla. Vestibulum a ligula placerat, fringilla elit in, imperdiet ex. Maecenas tincidunt augue risus, eu pharetra leo auctor nec. Cras malesuada.</p>
+												<p>Vestibulum vehicula velit id suscipit facilisis. Donec vel lacus nec ligula scelerisque egestas eu in ex. Praesent porta hendrerit varius. Curabitur sit amet placerat justo, eu luctus mauris. Mauris consequat.</p>
+											</body>
+					4.1.11.1.8)Alterar estilo.ccs 
+						4.1.11.1.8.1)Substituir .p1{} por p{
+																width: 650px;
+															}
+						4.1.11.1.8.2)Alterar p{
+													...
+													font-size: 16px;
+												}
+						4.1.11.1.8.3)Alterar p{
+													...
+													font-size: 18px;
+												}
+						4.1.11.1.8.4)Alterar p{
+													...
+													font-family: verdana;
+												}
+
+						4.1.11.1.8.5)Alterar p{
+												...
+												font-family: verdana, arial, sans-serif;
+												}
+						4.1.11.1.8.5)Alterar p{
+												...
+												font-family: arial, sans-serif;
+												}
+					4.1.11.1.9)Alterar tipografia.html
+						<head>
+							...
+							<link href="https://fonts.googleapis.com/css?family=Cabin|Inconsolata|Nunito|Nunito+Sans|VT323" 
+							...	
+						</head>
+					4.1.11.1.9)Alterar estilo.ccs
+						h1{
+							...
+							font-family: 'Nunito Sans', sans-serif;
+						}
+				4.1.11.2)makefile
 					git:
 						...
-						git commit -m "RBTech Aula_10"
+						git commit -m "RBTech"
 						...
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
