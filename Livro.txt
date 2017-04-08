@@ -608,9 +608,328 @@ Capitulo1/
 						a.link{
 							color: green
 						}
-				4.1.7.2)makefile
+				4.1.8.2)makefile
 					git:
 						...
 						git commit -m "RBTech Aula_8"
+						...
+			4.1.9)Aula_9.mp4
+				4.1.9.1)Observações
+					4.1.9.1.1)Copiar Estrutura-html5.html para primeiro-layout.html
+					4.1.9.1.2)Abrir primeiro-layout.html
+					4.1.9.1.3)Alterar <head>
+						<head>
+							<title>Meu primeiro layout</title>
+							<meta charset="utf-8" />
+							<link rel="stylesheet" type="text/css" href="estilo.css">
+						</head>
+					4.1.9.1.4)Limpar o conteúdo do arquivo estilo.css
+					4.1.9.1.5)Apagar <nav>
+						<header>
+							<h1>
+								Nome do site
+							</h1>
+							Top do site + menus de navegação
+							<nav>
+								<ul>
+									<li>
+										<a href="#">
+											Menu 1
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											Menu 3
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											Menu 3
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											Menu 4
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											Menu 5
+										</a>
+									</li>
+								</ul>
+							</nav>
+						</header>
+					4.1.9.1.6)Alterar <section>
+						<section>
+							<h2>Título da seção</h2>
+							<p>Conteúdo da seção</p>
+						</section>
+					4.1.9.1.7)Alterar <article>
+						<article>
+							<h2>Título do artigo</h2>
+							<p>Conteúdo do artigo</p>
+						</article>
+					4.1.9.1.8)Alterar <aside>
+						<aside>
+							<li>
+								<a href="#">
+									Submenu 1	
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Submenu 2		
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Submenu 3		
+								</a>
+							</li>			
+							<li>
+								<a href="#">
+									Submenu 4
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Submenu 4
+								</a>
+							</li>
+						</aside>
+					4.1.9.1.8)Alterar <div>
+						<div id="wrap">
+					4.1.9.1.9)Inserir no arquivo estilo.css
+						...
+						#wrap{
+							width: 960px;
+							margin: auto;
+							background: #e3e3e3;
+						}
+						header h1{
+							padding: 10px 20px;
+						}
+						header nav ul{
+							list-style: none;
+						}
+						header nav ul li{
+							display: inline-block;
+							margin-right: 10px;
+						}
+					4.1.9.1.10)Tranferir no arquivo estilo.css
+						header h1{
+							padding: 10px 20px;
+						}
+						para
+						#wrap{
+							...
+							padding: 10px 20px;
+						}
+					4.1.9.1.11)Remover <header h1> do arquivo estilo.css
+					4.1.9.1.12)Alterar <header> <nav> <ul> do arquivo estilo.css
+						header nav ul{
+						...
+						padding-left: 0;
+					4.1.9.1.13)Acrescentar em estilo.css
+						...
+						header nav ul li a{
+							font-size: 10px;
+							color: #ff6600;
+							text-decoration: none;
+						}
+						header nav ul li a:hover{
+							text-decoration: underline;
+						}
+					4.1.9.1.14)Alterar <aside>  do arquivo estilo.css
+						<aside>
+							<div>
+								<li><a href="#">Submenu 1</a></li>
+								<li><a href="#">Submenu 2</a></li>
+								<li><a href="#">Submenu 3</a></li>			
+								<li><a href="#">Submenu 4</a></li>
+								<li><a href="#">Submenu 4</a></li>
+							</div>
+						</aside>
+					4.1.9.1.15)Alterar arquivo estilo.css
+						<!DOCTYPE html>
+						<html>
+							<head>
+								<title>Meu primeiro layout</title>
+								<meta charset="utf-8" />
+								<link rel="stylesheet" type="text/css" href="estilo.css">
+							</head>
+							<body>
+								<div id="wrap">
+									<header>
+										<h1>Nome do site</h1>
+										<nav>
+											<ul>
+												<li><a href="#">Menu 1</a></li>
+												<li><a href="#">Menu 2</a></li>
+												<li><a href="#">Menu 3</a></li>
+												<li><a href="#">Menu 4</a></li>
+												<li><a href="#">Menu 5</a></li>
+											</ul>
+										</nav>
+									</header>
+									<div id="content">
+										<section>
+											<h2>Título da seção</h2>
+											<p>Conteúdo da seção</p>
+										</section>
+										<article>
+											Post ou conteúdo da página
+										</article>				
+									</div>		
+
+									<aside>
+										<ul>
+											<li><a href="#">Submenu 1</a></li>
+											<li><a href="#">Submenu 2</a></li>
+											<li><a href="#">Submenu 3</a></li>			
+											<li><a href="#">Submenu 4</a></li>
+											<li><a href="#">Submenu 4</a></li>
+										</ul>
+									</aside>
+									<footer>
+										Rodapé do site
+									</footer>			
+								</div>
+							</body>
+						</html>
+					4.1.9.1.16)inserir <asside></asside> em um <div id="sidebar"></div>
+					4.1.9.1.17)Inserir no arquivo estilo.css
+							...
+							#content{
+								float: left;
+								width: 660px;
+								background: red;
+							}
+							#sidebar{
+								float: right;
+								width: 300px;
+								background: blue;
+					4.1.9.1.18)Aletrar <article>
+						<article>
+							<h2>Título do artigo</h2>
+							<p>Conteúdo do artigo</p>
+						</article>				
+					4.1.9.1.19)Alterar arquivo estilo.css
+						#wrap{}
+						...
+						overflow: hidden;
+						}
+					4.1.9.1.20)Retira do arquivo estilo.css
+						#wrap{
+						...
+
+						overflow: hidden;
+						}
+					4.1.9.1.21)Insere no arquivo estilo.css
+						footer{
+							clear: both;
+						}
+					4.1.9.1.22)Retira do arquivo estilo.css
+ 						#content{
+						...
+						background: blue;
+						}
+					4.1.9.1.23)Incluir no arquivo estilo.css
+						#sidebar{
+							...
+						}
+						#sidebar ul{
+							list-style: none;
+						}
+						#sidebar ul li a{
+							color: #ff6600;
+							text-decoration: none;
+						}
+						#sidebar ul li a:hover{
+							text-decoration: underline;
+						}
+					4.1.9.1.24)Inserir no arquivo estilo.css
+						body{
+							...
+						}
+						a:link, a:visited{
+							color: #ff6600;
+							text-decoration: none;
+						}
+						a:hover{
+							text-decoration: underline;
+						}
+					4.1.9.1.25)Remover do arquivo estilo.css
+						header nav ul li a{
+							...
+							color: #ff6600;
+							text-decoration: none;
+						}						
+					4.1.9.1.26)Remover do arquivo estilo.css
+						header nav ul li a:hover{
+							text-decoration: underline;
+						}
+						...
+						#sidebar ul li a{
+							color: #ff6600;
+							text-decoration: none;
+						}
+						#sidebar ul li a:hover{
+							text-decoration: underline;
+						}
+					4.1.9.1.27)Alterar o arquivo estilo.css
+						body{
+							font-family: Helvetica, sans-serif;
+						}
+						a:link, a:visited{
+							color: #ff6600;
+							text-decoration: none;
+						}
+						a:hover{
+							text-decoration: underline;
+						}
+						#wrap{
+							width: 960px;
+							margin: auto;
+							background: #e3e3e3;
+							padding: 10px 20px;
+							overflow: hidden;
+						}
+						header nav ul{
+							list-style: none;
+							padding-left: 0;
+						}
+						header nav ul li{
+							display: inline-block;
+							margin-right: 10px;
+						}
+						header nav ul li a{
+							font-size: 18px;
+							color: :#ff6600;
+							text-decoration: none;
+						}
+						header nav ul li a:hover{
+							text-decoration: underline;
+						}
+						#content{
+							float: left;
+							width: 660px;
+						}
+						#sidebar{
+							float: right;
+							width: 300px;
+						}
+						footer{
+							clear: both;
+						}
+
+
+
+
+				4.1.9.2)makefile
+					git:
+						...
+						git commit -m "RBTech Aula_9"
 						...
 
