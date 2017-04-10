@@ -58,11 +58,6 @@ Capitulo1/
 					<tag atributo="valor">
 						conteudo da tag
 					</tag>
-				4.1.1.4)makefile
-							git:
-								...
-								git commit -m "RBTech Aula_1"
-								...
 			4.1.2)Aula_2.mp4
 				4.1.1.1)Observações
 					4.1.1.1.1)Estrutura básica do html
@@ -106,11 +101,6 @@ Capitulo1/
 								segunda para <strong>segunda</strong>
 								...
 							</body>		
-					4.1.1.1.6)makefile
-								git:
-									...
-									git commit -m "RBTech Aula_2"
-									...
 			4.1.3)Aula_3.mp4
 				4.1.3.1)Observações
 					4.1.3.1.1)Copiar Primeiro.haml para listas.html
@@ -193,20 +183,10 @@ Capitulo1/
 										Lingugem de marcação para página web
 									</dd>
 								</body>
-					4.1.3.1.7)makefile
-								git:
-									...
-									git commit -m "RBTech Aula_3"
-									...
 			4.1.4)Aula_4.mp4
 				4.1.4.1)Observações
 							4.1.4.1.1)Observações no HTML
 								<-- -->
-							4.1.4.1.2)makefile
-										git:
-											...
-											git commit -m "RBTech Aula_4"
-											...
 			4.1.5)Aula_5.mp4
 				4.1.5.1)Observações
 					4.1.5.1.1)Copiar Primeiro.haml para seo-titulos.html
@@ -256,11 +236,6 @@ Capitulo1/
 							...
 							<meta name="author" content="Luís Valente" />
 						</head>
-					4.1.5.1.9)makefile
-						git:
-							...
-							git commit -m "RBTech Aula_5"
-							...
 			4.1.6)Aula_6.mp4
 				4.1.6.1)Observações
 					4.1.6.1.1)Copiar Primeiro.html para Estrutura-html5.html
@@ -286,11 +261,6 @@ Capitulo1/
 								Rodapé do site
 							</footer>
 						</body>						
-				4.1.6.2)makefile
-					git:
-						...
-						git commit -m "RBTech Aula_6"
-						...
 			4.1.7)Aula_7.mp4
 				4.1.7.1)Observações
 					4.1.7.1.1)Alterar <body>
@@ -429,11 +399,6 @@ Capitulo1/
 								[Site da USP]
 							</a>
 						</body> 
-				4.1.7.2)makefile
-					git:
-						...
-						git commit -m "RBTech Aula_7"
-						...
 			4.1.8)Aula_8.mp4
 				4.1.8.1)Observações
 					4.1.8.1.1)Inicio de estudo de CSS
@@ -608,11 +573,6 @@ Capitulo1/
 						a.link{
 							color: green
 						}
-				4.1.8.2)makefile
-					git:
-						...
-						git commit -m "RBTech Aula_8"
-						...
 			4.1.9)Aula_9.mp4
 				4.1.9.1)Observações
 					4.1.9.1.1)Copiar Estrutura-html5.html para primeiro-layout.html
@@ -923,11 +883,6 @@ Capitulo1/
 						footer{
 							clear: both;
 						}
-				4.1.9.2)makefile
-					git:
-						...
-						git commit -m "RBTech Aula_9"
-						...
 			4.1.10)Aula_10.mp4
 				4.1.10.1)Observações
 					4.1.10.1.1)Abrir arquivo Primeiro-estilo.html
@@ -1046,8 +1001,7 @@ Capitulo1/
 						input[type=submit]:hover{
 							background: #ff6600;
 						}
-
-			4.1.11)Aula_11.mp4	
+			4.1.11)Aula_11.mp4
 				4.1.11.1)Observações
 					4.1.11.1.1)Copiar Formularios.html para Tipografia.html
 					4.1.11.1.2)Abrir arquivo Tipografia.html
@@ -1181,7 +1135,79 @@ Capitulo1/
 							...
 							font-family: 'Nunito Sans', sans-serif;
 						}
-				4.1.11.2)makefile
+			4.1.12)Aula_12.mp4
+				4.1.12.1)Observações
+					4.1.12.1.1)Copiar o arquivo Estrutura-html5.html para reset.html
+					4.1.12.1.2)Abrir arquivo reset.htm
+						4.1.12.1.2)Alterar
+							4.1.12.1.2.1)head>
+											<title>CSS Reset</title>
+											...
+											<link rel="stylesheet" type="text/css" />
+										</head>
+							4.1.12.1.2.2)<nav>
+											<u>
+												<li><a href="#">Menu 1</a></li>
+												<li><a href="#">Menu 2</a></li>
+												<li><a href="#">Menu 3</a></li>
+												<li><a href="#">Menu 4</a></li>
+												<li><a href="#">Menu 5</a></li>
+											</u>
+										</nav>
+					4.1.12.1.3)Criar arquivo reset.css
+						4.1.12.1.3.1)Alerar conteúdo para
+							/* http://meyerweb.com/eric/tools/css/reset/ 
+							   v2.0 | 20110126
+							   License: none (public domain)
+							*/
+
+							html, body, div, span, applet, object, iframe,
+							h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+							a, abbr, acronym, address, big, cite, code,
+							del, dfn, em, img, ins, kbd, q, s, samp,
+							small, strike, strong, sub, sup, tt, var,
+							b, u, i, center,
+							dl, dt, dd, ol, ul, li,
+							fieldset, form, label, legend,
+							table, caption, tbody, tfoot, thead, tr, th, td,
+							article, aside, canvas, details, embed, 
+							figure, figcaption, footer, header, hgroup, 
+							menu, nav, output, ruby, section, summary,
+							time, mark, audio, video {
+								margin: 0;
+								padding: 0;
+								border: 0;
+								font-size: 100%;
+								font: inherit;
+								vertical-align: baseline;
+							}
+							/* HTML5 display-role reset for older browsers */
+							article, aside, details, figcaption, figure, 
+							footer, header, hgroup, menu, nav, section {
+								display: block;
+							}
+							body {
+								line-height: 1;
+							}
+							ol, ul {
+								list-style: none;
+							}
+							blockquote, q {
+								quotes: none;
+							}
+							blockquote:before, blockquote:after,
+							q:before, q:after {
+								content: '';
+								content: none;
+							}
+							table {
+								border-collapse: collapse;
+								border-spacing: 0;
+							}
+
+
+
+	5)makefile
 					git:
 						...
 						git commit -m "RBTech"
