@@ -1307,6 +1307,96 @@ Capitulo1/
 						4.1.12.1.10.1)Normailze.html
 						4.1.12.1.10.2)Normailze.css
 						4.1.12.1.10.3)reset.html
+			4.1.13)Aula_13.mp4
+				4.1.13.1)Observações
+					4.1.13.1.1)Criar uma pasta sitefinal
+					4.1.13.1.2)Criar uma pasta sitefinal/img
+					4.1.13.1.3)Criar uma pasta sitefinal/css
+					4.1.13.1.4)Copiar arquivo normalize.css para sitefinal/css
+					4.1.13.1.5)Criar sitefinal/index.html
+					4.1.13.1.6)Entrar no subdiretorio /sitefinal
+					4.1.13.1.7)Abrir arquivo index.html e inserir
+						<!DOCTYPE html>
+						<!DOCTYPE html>
+						<html lang="pt-br" />
+							<head>
+								<meta charset="utf-8" />
+								<title>RBernadi - Desenvolvimento de Web</title>
+								<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+								<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet" />
+								<link rel="stylesheet" type="text/css" href="css/estilo.css" />
+							</head>
+							<body>
+								<div class="linha">
+									<div class="coluna col1"></div>
+									<div class="coluna col11"></div>
+								</div>
+								<div class="linha">
+									<div class="coluna col4"></div>
+									<div class="coluna col8"></div>
+								</div>
+								<div class="linha">
+									<div class="coluna col4"></div>
+									<div class="coluna col4"></div>
+									<div class="coluna col4"></div>
+								</div>
+							</body>
+					4.1.13.1.8)Abrir css/estilo.css e alterar arquivo com
+						body{
+							font-family: 'Roboto', sans-serif;
+						}
+						/* grid 960px */
+						.linha{
+							width: 960px;
+							margin: 0 auto;
+							overflow: auto;
+							padding: 5px 0;
+						}
+
+						.coluna{
+							padding: 0 10px;
+							float: left;
+						}
+						.col1{
+							width: 60px;	
+						}
+						.col2{
+							width: 140px;	
+						}
+						.col3{
+							width: 220px;	
+						}
+						.col4{
+							width: 300px;	
+						}
+						.col5{
+							width: 380px;	
+						}
+						.col6{
+							width: 460px;	
+						}
+						.col7{
+							width: 540px;	
+						}
+						.col8{
+							width: 620px;	
+						}
+						.col9{
+							width: 700px;	
+						}
+						.col10{
+							width: 780px;	
+						}
+						.col11{
+							width: 860px;	
+						}
+						.col12{
+							width: 940px;	
+						}
+
+
+
+
 	5)Alterar arquivo .gitignore
 	6)git:
 		...
