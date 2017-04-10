@@ -1,9 +1,25 @@
 h1{
 	color: #ff6600;
-	letter-spacing: -2px;
+	letter-spacing: 1px;
 	text-transform: capitalize;
 	width: 650px;
 	text-shadow: 1px 1px 1px black;
+	font-family: 'Nunito Sans', sans-serif;
+}
+h2{
+	color: #ee0000;
+	letter-spacing: 2px;
+	text-transform: capitalize;
+	width: 60px;
+	text-shadow: 2px 2px 2px black;
+	font-family: 'Nunito Sans', sans-serif;
+}
+h4{
+	color: #cc0000;
+	letter-spacing: 4px;
+	text-transform: capitalize;
+	width: 650px;
+	text-shadow: 4px 4px 4px black;
 	font-family: 'Nunito Sans', sans-serif;
 }
 p{
