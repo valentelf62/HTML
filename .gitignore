@@ -1,6 +1,6 @@
 ./img
 .gitignore
-../pages
+./pages
 git
 link-img.html
 makefile
